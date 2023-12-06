@@ -10,6 +10,22 @@
    var b = 7
    (a, b) = (b, a) // a = 7, b = 5
   ```
+   There are some other techniques
+   ```swift
+   //MARK: technique 1
+   var a = 5
+   var b = 7
+   a = a + b // 12
+   b = a - b // 5
+   a = a - b // 7
+
+   //MARK: technique 2
+   var a = 5
+   var b = 7
+   var temp = a
+   a = b // 7
+   b = temp // 5
+  ```
 ### 3. What are the UIViewController's lifecycle in ios?
 ### 4. Which delegate medhod sets the item size in a UICollectionView?
    ```swift
