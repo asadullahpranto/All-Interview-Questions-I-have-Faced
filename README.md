@@ -16,7 +16,7 @@
    print(message) // shows nil
   ```
 
-### 2. There is a popular method for swaping two values in swift, can you demonstrate that?
+### 3. There is a popular method for swaping two values in swift, can you demonstrate that?
    Ohh, yes. By using **Tuple** data type we can swap values easily. **Tuple** is a native data type for Swift.
    For example, if we have two values like 
    ```swift
@@ -41,10 +41,10 @@
    a = b // 7
    b = temp // 5
   ```
-### 3. What are the application lifecycle in ios?
+### 4. What are the application lifecycle in ios?
    <img width="415" alt="scene-state@2x" src="https://github.com/asadullahpranto/All-Interview-Questions-I-have-Faced/assets/22514450/768570ea-5ef3-4112-9dd7-327f1a9191af">
 
-### 4. What are the UIViewController's lifecycle in ios?
+### 5. What are the UIViewController's lifecycle in ios?
    - loadView()
    - loadViewIfNeeded()
    - viewDidLoad()
@@ -57,12 +57,12 @@
      
    ![1_hX8Jd4HG3Hw0N1oWtSHnlQ](https://github.com/asadullahpranto/All-Interview-Questions-I-have-Faced/assets/22514450/10cf841e-1ff7-4ae3-bf55-bb936cd9bd2b)
 
-### 5. Which delegate medhod sets the item size in a UICollectionView?
+### 6. Which delegate medhod sets the item size in a UICollectionView?
    ```swift
       UICollectionViewDelegateFlowLayout.
       It inherits from UICollectionViewDelegate
    ```
-### 6. Which will be execute first?
+### 7. Which will be execute first?
    ```swift
       DispatchQueue.main.async {
          print("inside")
@@ -73,3 +73,8 @@
       // MARK: Answer
       // outside -> inside
    ```
+
+  **NOTE**
+  ```
+  sync code blocks execute first. that's why "indise" print's after the "outside"
+  ```
