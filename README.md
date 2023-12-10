@@ -60,8 +60,10 @@
 ### 6. Which delegate medhod sets the item size in a UICollectionView?
    ```swift
       UICollectionViewDelegateFlowLayout.
-      It inherits from UICollectionViewDelegate
    ```
+  > [!NOTE]\
+  >  UICollectionViewDelegateFlowLayout inherits from UICollectionViewDelegate
+
 ### 7. Which will be execute first?
    ```swift
       DispatchQueue.main.async {
@@ -73,8 +75,6 @@
       // MARK: Answer
       // outside -> inside
    ```
-
-  **NOTE**
-  ```
-  sync code blocks execute first. that's why "indise" print's after the "outside"
-  ```
+  **NOTE** <!-- omit in toc -->
+> [!NOTE]\
+>  sync code blocks execute first. that's why "indise" print's after the "outside"
