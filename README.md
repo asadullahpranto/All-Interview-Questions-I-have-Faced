@@ -78,3 +78,9 @@
   **NOTE** <!-- omit in toc -->
 > [!NOTE]\
 >  sync code blocks execute first. that's why "indise" print's after the "outside"
+### 8. fibonacci Serie,  brute force & recursive 
+### string manipulation, string rotation
+### 9. Oop components 
+### 10. protocol delegate
+### 11. access modifier 
+### 12. 
