@@ -83,4 +83,6 @@
 ### 9. Oop components 
 ### 10. protocol delegate
 ### 11. access modifier 
-### 12. 
+### 12. Equatable & Hashable protocol 
+### why i chose ios development 
+### little about project contribution
